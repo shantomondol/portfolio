@@ -31,13 +31,3 @@ h1 {
 	margin: 0;
 	color: #fff;
 }
-
-a{
-	color: #00ff00;
-	text-decoration: none;
-	font-family: sans-serif;
-	border: 2px solid #00ff00;
-	border-radius: 40px;
-	padding: 5px;
-	background-color: #999966;
-}
