@@ -13,10 +13,10 @@ body{
 
 header {	
 	height: 100vh;
-	/*background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) ,url(img/bg.jpg);
+	background-image: url(img/1bg.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;*/
+	background-size: contain;
+	background-position: right;
 }
 
 .hero-text {
@@ -34,8 +34,12 @@ h1 {
 	letter-spacing: 1px;
 	word-spacing: 2px;
 	text-transform: uppercase;
-	font-weight: 300;
 
+}
+
+span {
+	font-size: 80%;
+	font-weight: 300;
 }
 
 .btn:link,
