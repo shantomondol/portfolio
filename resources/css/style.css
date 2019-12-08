@@ -1,3 +1,7 @@
+/*------------------------------------------------
+GLOBAL
+------------------------------------------------*/
+
 *{
 	margin: 0;
 	padding: 0;
@@ -10,6 +14,14 @@ body{
 	font-size: 20px;
 	font-weight: 300;
 }
+
+.row {
+	width: 1140px;
+	margin: 0 auto;
+}
+/*------------------------------------------------
+HEADER
+------------------------------------------------*/
 
 header {	
 	height: 100vh;
@@ -41,7 +53,9 @@ span {
 	font-size: 80%;
 	font-weight: 300;
 }
-
+/*------------------------------------------------
+BUTTON
+------------------------------------------------*/
 .btn:link,
 .btn:visited {
 	text-decoration: none;
@@ -76,4 +90,29 @@ span {
 	border: 1px solid #211F1F;
 	color: #fff;
 	background-color: #211F1F;
+}
+
+.logo {
+	height: 100px;
+	width: 200px;
+	border-radius: 50px;
+	float: left;
+}
+
+.main-nav {
+	float: right;
+}
+
+.main-nav li {
+	display: inline-block;
+	list-style: none;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+.main-nav li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: 
+	font-size
 }
