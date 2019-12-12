@@ -94,7 +94,7 @@ BUTTON
 
 .logo {
 	height: 100px;
-	width: 200px;
+	width: auto;
 	border-radius: 50px;
 	float: left;
 }
