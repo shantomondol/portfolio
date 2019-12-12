@@ -56,13 +56,13 @@ span {
 /*------------------------------------------------
 BUTTON
 ------------------------------------------------*/
-.btn:link,
-.btn:visited {
+.btn {
 	text-decoration: none;
 	padding: 10px 20px;
 	border-radius: 5px;
 	display: inline-block;
 	transition: background-color 0.5s;
+	margin-right: 5px;
 }
 
 .facebook-btn:link, 
