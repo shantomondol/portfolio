@@ -220,9 +220,21 @@ SKILLS
 	display: inline-block;
 	float: left;
 	width: 25%;
+	overflow: hidden;
 }
 
 .skills ul li img {
 	width: 100%;
 	height: auto;
+	transform: scale(1.02);
+	opacity: 80%;
+	transition: transform 0.5s
+}
+.skills ul li img:hover {
+	transform: scale(1.30);
+	opacity: 100%;
+}
+
+.skills {
+	padding: 0;
 }
