@@ -252,13 +252,21 @@ SKILLS
 /*------------------------------------------------
 WORKS
 ------------------------------------------------*/
+.works {
+	background-color: #f4f4f4;
+}
+
 .work-div img{
 	width: 100%;
 	float: right;
 	padding-right: 3%;
 }
 
-.work-div div {
+.work-step {
+	margin-bottom: 50px;
+}
+
+.work-step div {
 	display: inline-block;
 	color: #3b5998;
 	border: 2px solid #3b5998;
@@ -267,14 +275,16 @@ WORKS
 	font-size: 200%;
 	text-align: center;
 	border-radius: 50%;
+	float: left;
+	margin-right: 10px;
 }
-
 
 .work-div a:link,
 .work-div a:visited {
 	background-color: #3b5998;
 	border: 1px solid #3b5998;
 	color: #fff;
+	margin-top: 50px;
 }
 
 .work-div a:hover,
