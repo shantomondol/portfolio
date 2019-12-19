@@ -297,3 +297,27 @@ WORKS
 	border: 1px solid #3b5998;
 	color: #3b5998;
 }
+/*------------------------------------------------
+PROJECT
+------------------------------------------------*/
+.project-img {
+	width: 100%;
+	height: auto;
+}
+
+.project-details {margin-top: 5px;}
+
+.project-details i {
+	margin-right: 5px;
+	color: #3b5998;
+}
+
+.project-details a:link,
+.project-details a:visited {
+	color: #3b5998;
+}
+
+.project-details a:hover,
+.project-details a:active {
+	color: #061d4d;
+}
