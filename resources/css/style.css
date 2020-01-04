@@ -321,3 +321,36 @@ PROJECT
 .project-details a:active {
 	color: #061d4d;
 }
+
+/*------------------------------------------------
+CLAIENTS FEEDBACK
+------------------------------------------------*/
+
+.claients-feedback {
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/claients-bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+}
+
+.claients-feedback h2 {
+	color: #fff;
+}
+
+blockquote {
+	text-align: justify;
+	font-style: italic;
+}
+
+cite {
+	display: block;
+	margin-top: 20px;
+	font-size: 90%;
+}
+
+cite img {
+	height: 50px;
+	border-radius: 50%;
+	vertical-align: middle;
+	margin-right: 10px;
+}
