@@ -340,6 +340,17 @@ CLAIENTS FEEDBACK
 blockquote {
 	text-align: justify;
 	font-style: italic;
+	line-height: 145%;
+	position: relative;
+	margin-top: 20px;
+}
+
+blockquote:before {
+	content: "\201C";
+	font-size: 500%;
+	position: absolute;
+	left: -8px;
+	top: 0;
 }
 
 cite {
