@@ -365,3 +365,48 @@ cite img {
 	vertical-align: middle;
 	margin-right: 10px;
 }
+
+/*------------------------------------------------
+HIRE ME
+------------------------------------------------*/
+.hire-me {
+	background-color: #f4f4f4;
+}
+
+.card {
+	background-color: #fff;
+	width: 90%;
+	margin-left: 5%;
+	border-radius: 5px;
+}
+
+.card div {
+	padding: 15px;
+	border-bottom: 1px solid #f2f2f2;
+}
+
+.card div h3 {
+	text-align: left;
+}
+
+.card div p {
+	font-size: 250%;
+	color: #3b5998;
+}
+
+.card div p span {
+	font-size: 35%;
+}
+
+.card div ul {
+	list-style: none;
+}
+
+.card div ul li {
+	padding: 10px;
+}
+
+.card div ul li i {
+	margin-right: 5px;
+	color: #3b5998;
+}
