@@ -109,7 +109,8 @@ span {
 /*------------------------------------------------
 BUTTON
 ------------------------------------------------*/
-.btn {
+.btn, 
+input[type=submit] {
 	text-decoration: none;
 	padding: 10px 20px;
 	border-radius: 5px;
@@ -119,14 +120,16 @@ BUTTON
 }
 
 .facebook-btn:link, 
-.facebook-btn:visited {
+.facebook-btn:visited,
+input[type=submit] {
 	background-color: #3b5998;
 	border: 1px solid #3b5998;
 	color: #fff;
 }
 
 .facebook-btn:hover, 
-.facebook-btn:active {
+.facebook-btn:active,
+input[type=submit]:hover {
 	background-color: #fff;
 	border: 1px solid #3b5998;
 	color: #3b5998;
@@ -426,3 +429,23 @@ HIRE ME
 .card div:last-child {
 	border-bottom: none;
 }
+
+/*------------------------------------------------
+CONTACT WITH ME
+------------------------------------------------*/
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+	width: 100%;
+	padding: 7px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+}
+
+input[type=checkbox] { margin: 10px 5px 10px 0 }
+
+textarea { height: 100px; }
+
+*:focus { outline: none; }
