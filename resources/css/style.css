@@ -449,3 +449,50 @@ input[type=checkbox] { margin: 10px 5px 10px 0 }
 textarea { height: 100px; }
 
 *:focus { outline: none; }
+
+
+
+/*------------------------------------------------
+FOOTER
+------------------------------------------------*/
+footer {
+	background-color: #333;
+	font-size: 90%;
+}
+
+footer ul {
+	list-style: none;
+	padding-top: 20px;
+}
+
+footer ul li {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+
+footer ul li:last-child {
+	margin-right: 0;
+}
+
+.about-links { float: left; }
+
+.social-links { float: right; }
+
+.copyright {
+	padding: 50px 0;
+	text-align: center;
+}
+
+
+footer ul li a:link,
+footer ul li a:visited,
+.copyright {
+	text-decoration: none;
+	color: #c8c8c8;
+}
+
+footer ul li a:active,
+footer ul li a:hover {
+	color: #f2f2f2;
+}
