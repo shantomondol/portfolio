@@ -485,14 +485,14 @@ footer ul li:last-child {
 }
 
 
-footer ul li a:link,
-footer ul li a:visited,
+footer a:link,
+footer a:visited,
 .copyright {
 	text-decoration: none;
 	color: #c8c8c8;
 }
 
-footer ul li a:active,
-footer ul li a:hover {
+footer a:active,
+footer a:hover {
 	color: #f2f2f2;
 }
