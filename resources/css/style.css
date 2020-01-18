@@ -6,6 +6,7 @@ GLOBAL
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 body{
@@ -188,7 +189,7 @@ input[type=submit]:hover {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-	color: tomato;
+	color: #ccc;
 }
 
 .resume {
@@ -198,7 +199,7 @@ input[type=submit]:hover {
 }
 
 .resume:hover {
-	border: 1px solid tomato;
+	border: 1px solid #ccc;
 }
 
 /*------------------------------------------------
