@@ -1,7 +1,6 @@
-/*------------------------------------------------
-GLOBAL
-------------------------------------------------*/
-
+/*-----------------------------------------------------------*/
+/*----------------------- GLOBAL ----------------------------*/
+/*-----------------------------------------------------------*/
 *{
 	margin: 0;
 	padding: 0;
@@ -16,14 +15,15 @@ body{
 	font-weight: 300;
 }
 
+section { padding: 80px 0; }
+
+
 .row {
 	width: 1140px;
 	margin: 0 auto;
 }
 
-section {
-	padding: 80px 0;
-}
+
 
 .clearFix {zoom:1;}
 .clearFix:after {
@@ -34,26 +34,10 @@ section {
 	visibility: hidden;
 }
 
-/*------------------------------------------------
-HEADER
-------------------------------------------------*/
 
-header {	
-	height: 100vh;
-	background-image: url(img/bg1.gif);
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: right;
-}
-
-.hero-text {
-	position: absolute;
-	width: 1140px;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
+/*-----------------------------------------------------------*/
+/*----------------------- HEADING  --------------------------*/
+/*-----------------------------------------------------------*/
 h1,
 h2,
 h3 {
@@ -94,22 +78,10 @@ h3 {
 	margin-bottom: 15px;
 }
 
-.about-text {
-	width: 70%;
-	margin-left: 15%;
-	text-align: center;
-	margin-bottom: 30px;
-	line-height: 140%;
-	font-size: 90%;
-}
 
-span {
-	font-size: 80%;
-	font-weight: 300;
-}
-/*------------------------------------------------
-BUTTON
-------------------------------------------------*/
+/*-----------------------------------------------------------*/
+/*---------------------- BUTTONS ----------------------------*/
+/*-----------------------------------------------------------*/
 .btn, 
 input[type=submit] {
 	text-decoration: none;
@@ -149,6 +121,10 @@ input[type=submit]:hover {
 	background-color: #211F1F;
 }
 
+
+/*-----------------------------------------------------------*/
+/*-------------------------- NAV ----------------------------*/
+/*-----------------------------------------------------------*/
 .logo {
 	height: 100px;
 	width: auto;
@@ -175,9 +151,7 @@ input[type=submit]:hover {
 	font-size: 90%;
 }
 
-.main-nav li:last-child {
-	margin-right: 0;
-}
+.main-nav li:last-child { margin-right: 0; }
 
 .main-nav li a:link,
 .main-nav li a:visited {
@@ -188,9 +162,7 @@ input[type=submit]:hover {
 }
 
 .main-nav li a:hover,
-.main-nav li a:active {
-	color: #ccc;
-}
+.main-nav li a:active { color: #ccc; }
 
 .resume {
 	border: 1px solid #555;
@@ -198,16 +170,47 @@ input[type=submit]:hover {
 	border-radius: 5px;
 }
 
-.resume:hover {
-	border: 1px solid #ccc;
+.resume:hover {	border: 1px solid #ccc; }
+
+
+/*-----------------------------------------------------------*/
+/*----------------------- HEADER ----------------------------*/
+/*-----------------------------------------------------------*/
+header {	
+	height: 100vh;
+	background-image: url(img/bg1.gif);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
 }
 
-/*------------------------------------------------
-About Section
-------------------------------------------------*/
-.box {
-	padding: 1%;
+.hero-text {
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
+
+span {
+	font-size: 80%;
+	font-weight: 300;
+}
+
+
+/*-----------------------------------------------------------*/
+/*----------------------- ABOUT -----------------------------*/
+/*-----------------------------------------------------------*/
+.about-text {
+	width: 70%;
+	margin-left: 15%;
+	text-align: center;
+	margin-bottom: 30px;
+	line-height: 140%;
+	font-size: 90%;
+}
+
+.box { padding: 1%; }
 
 .icon-big {
 	font-size: 250%;
@@ -223,13 +226,10 @@ About Section
 }
 
 
-/*------------------------------------------------
-SKILLS
-------------------------------------------------*/
-
-.skills ul {
-	list-style: none;
-}
+/*-----------------------------------------------------------*/
+/*----------------------- SKILLS ----------------------------*/
+/*-----------------------------------------------------------*/
+.skills ul { list-style: none; }
 
 .skills ul li {
 	display: inline-block;
@@ -250,20 +250,15 @@ SKILLS
 	opacity: 100%;
 }
 
-.skills {
-	padding: 0;
-}
+.skills { padding: 0; }
 
-/*------------------------------------------------
-WORKS
-------------------------------------------------*/
-.works {
-	background-color: #f4f4f4;
-}
 
-.work-div {
-	margin-top: 50px;
-}
+/*-----------------------------------------------------------*/
+/*----------------------- WORKS -----------------------------*/
+/*-----------------------------------------------------------*/
+.works { background-color: #f4f4f4; }
+
+.work-div { margin-top: 50px; }
 
 .work-div img{
 	width: 100%;
@@ -271,9 +266,7 @@ WORKS
 	padding-right: 3%;
 }
 
-.work-step {
-	margin-bottom: 50px;
-}
+.work-step { margin-bottom: 50px; }
 
 .work-step div {
 	display: inline-block;
@@ -301,9 +294,11 @@ WORKS
 	border: 1px solid #3b5998;
 	color: #3b5998;
 }
-/*------------------------------------------------
-PROJECT
-------------------------------------------------*/
+
+
+/*-----------------------------------------------------------*/
+/*----------------------- PROJECT ---------------------------*/
+/*-----------------------------------------------------------*/
 .project-img {
 	width: 100%;
 	height: auto;
@@ -317,18 +312,15 @@ PROJECT
 }
 
 .project-details a:link,
-.project-details a:visited {
-	color: #3b5998;
-}
+.project-details a:visited { color: #3b5998; }
 
 .project-details a:hover,
-.project-details a:active {
-	color: #061d4d;
-}
+.project-details a:active { color: #061d4d; }
 
-/*------------------------------------------------
-CLAIENTS FEEDBACK
-------------------------------------------------*/
+
+/*-----------------------------------------------------------*/
+/*----------------------- FEEDBACK --------------------------*/
+/*-----------------------------------------------------------*/
 
 .claients-feedback {
 	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/claients-bg.jpg);
@@ -337,9 +329,7 @@ CLAIENTS FEEDBACK
 	color: #fff;
 }
 
-.claients-feedback h2 {
-	color: #fff;
-}
+.claients-feedback h2 { color: #fff; }
 
 blockquote {
 	text-align: justify;
@@ -370,12 +360,11 @@ cite img {
 	margin-right: 10px;
 }
 
-/*------------------------------------------------
-HIRE ME
-------------------------------------------------*/
-.hire-me {
-	background-color: #f4f4f4;
-}
+
+/*-----------------------------------------------------------*/
+/*----------------------- HIRE ME ---------------------------*/
+/*-----------------------------------------------------------*/
+.hire-me { background-color: #f4f4f4; }
 
 .card {
 	background-color: #fff;
@@ -396,26 +385,18 @@ HIRE ME
 	border-top-left-radius: 5px;
 }
 
-.card div h3 {
-	text-align: left;
-}
+.card div h3 { text-align: left; }
 
 .card div p {
 	font-size: 250%;
 	color: #3b5998;
 }
 
-.card div p span {
-	font-size: 35%;
-}
+.card div p span { font-size: 35%; }
 
-.card div ul {
-	list-style: none;
-}
+.card div ul { list-style: none; }
 
-.card div ul li {
-	padding: 10px;
-}
+.card div ul li { padding: 10px; }
 
 .card div ul li i {
 	margin-right: 5px;
@@ -427,14 +408,12 @@ HIRE ME
 	text-align: center;
 }
 
-.card div:last-child {
-	border-bottom: none;
-}
+.card div:last-child { border-bottom: none; }
 
-/*------------------------------------------------
-CONTACT WITH ME
-------------------------------------------------*/
 
+/*-----------------------------------------------------------*/
+/*----------------------- CONTACT ---------------------------*/
+/*-----------------------------------------------------------*/
 input[type=text],
 input[type=email],
 select,
@@ -452,10 +431,9 @@ textarea { height: 100px; }
 *:focus { outline: none; }
 
 
-
-/*------------------------------------------------
-FOOTER
-------------------------------------------------*/
+/*-----------------------------------------------------------*/
+/*------------------------ FOOTER ---------------------------*/
+/*-----------------------------------------------------------*/
 footer {
 	background-color: #333;
 	font-size: 90%;
@@ -472,19 +450,11 @@ footer ul li {
 }
 
 
-footer ul li:last-child {
-	margin-right: 0;
-}
+footer ul li:last-child { margin-right: 0; }
 
 .about-links { float: left; }
 
 .social-links { float: right; }
-
-.copyright {
-	padding: 50px 0;
-	text-align: center;
-}
-
 
 footer a:link,
 footer a:visited,
@@ -494,6 +464,9 @@ footer a:visited,
 }
 
 footer a:active,
-footer a:hover {
-	color: #f2f2f2;
+footer a:hover { color: #f2f2f2; }
+
+.copyright {
+	padding: 50px 0;
+	text-align: center;
 }
