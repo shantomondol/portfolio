@@ -68,6 +68,39 @@
 /*-----------------------------------------------------------*/
 @media (max-width: 767px){
 
+	/*global*/
+	body { font-size: 16px; }	
+	section { padding: 20px 0; }
+
+	/*header*/
+	header { background-image: none; }
+
+	/*nav*/
+	.logo { height: 80px; }
+	.main-nav li { 
+		margin-right: 10px;
+		margin-top: 10px
+	}
+
+	/*grid*/
+	.col { 
+		width: 100%; 
+		margin: 0 0 3% 0;
+	}
+
+	/*works*/
+	.work-div img { padding-right: 0; }
+
+	/*feedback*/
+	.claients-feedback { background-position: center; }
+
+	/*contact*/
+	.white-space { display: none; }
+
+	/*footer*/
+	footer { font-size: 100%; }
+	footer .col { width: 50%; }
+
 }
 
 
