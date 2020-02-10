@@ -118,7 +118,7 @@
 	.about-text { margin-bottom: 10px; }
 
 	/*skills*/
-	.skills ul li img {	transform: scale(1.08);	}
+	.skills ul li img {	transform: scale(1.09);	}
 
 	/*works*/
 	.work-step div {   
@@ -129,6 +129,8 @@
 
 	/*feedback*/
 	cite { margin-top: 10px; }	
+
+	.card div p span { font-size: 45%; }
 
 	/*footer*/
 	footer ul li { margin-right: 7px; }
