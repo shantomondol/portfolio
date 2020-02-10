@@ -108,5 +108,17 @@
 /*-----------------------------------------------------------*/
 @media (max-width: 480px){
 
+	/*global*/
+	body { font-size: 14px; }	
+	section { padding: 10px 0; }
 
+	/*nav*/
+	nav ul { visibility: hidden; }
+
+	/*skills*/
+	.skills ul li img {	transform: scale(1.07);	}
+
+	/*footer*/
+	footer ul li { margin-right: 7px; }
+	
 }
