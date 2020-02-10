@@ -59,7 +59,6 @@
 	/*hire me*/
 	.card div p { font-size: 200%; }
 
-
 }
 
 
@@ -98,7 +97,7 @@
 	.white-space { display: none; }
 
 	/*footer*/
-	footer { font-size: 100%; }
+	footer { font-size: 90%; }
 	footer .col { width: 50%; }
 
 }
