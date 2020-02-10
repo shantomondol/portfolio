@@ -109,16 +109,28 @@
 @media (max-width: 480px){
 
 	/*global*/
-	body { font-size: 14px; }	
-	section { padding: 10px 0; }
+	body { font-size: 14px; }
 
 	/*nav*/
 	nav ul { visibility: hidden; }
 
+	/*about*/
+	.about-text { margin-bottom: 10px; }
+
 	/*skills*/
-	.skills ul li img {	transform: scale(1.07);	}
+	.skills ul li img {	transform: scale(1.08);	}
+
+	/*works*/
+	.work-step div {   
+    	height: 35px;
+    	width: 35px;
+    	font-size: 170%;   
+	}
+
+	/*feedback*/
+	cite { margin-top: 10px; }	
 
 	/*footer*/
 	footer ul li { margin-right: 7px; }
-	
+
 }
