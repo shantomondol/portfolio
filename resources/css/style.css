@@ -104,8 +104,9 @@ input[type=submit] {
 .facebook-btn:active,
 input[type=submit]:hover {
 	background-color: #fff;
-	border: 1px solid #3b5998;
 	color: #3b5998;
+	border: 1px solid #fff;
+	text-decoration: underline;
 }
 
 .github-btn:link,
@@ -456,17 +457,26 @@ footer ul li:last-child { margin-right: 0; }
 
 .social-links { float: right; }
 
-footer a:link,
-footer a:visited,
-.copyright {
-	text-decoration: none;
+footer li a:link,
+footer li a:visited,
+.about-links {
 	color: #c8c8c8;
+	text-decoration: none;
 }
-
-footer a:active,
-footer a:hover { color: #f2f2f2; }
 
 .copyright {
 	padding: 50px 0;
 	text-align: center;
+}
+
+footer a:link,
+footer a:visited,
+.copyright {
+	color: #c8c8c8;
+}
+
+footer a:active,
+footer a:hover { 
+	color: #f2f2f2;
+	text-decoration: none;
 }
