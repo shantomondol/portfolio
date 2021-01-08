@@ -163,15 +163,32 @@ input[type=submit]:hover {
 }
 
 .main-nav li a:hover,
-.main-nav li a:active { color: #ccc; }
+.main-nav li a:active {
+ 	color: #ccc;
+ 	text-decoration: underline;
+}
 
 .resume {
-	border: 1px solid #555;
+	border: 1px solid #30AEE3;
 	padding: 10px 20px;
 	border-radius: 5px;
 }
 
-.resume:hover {	border: 1px solid #ccc; }
+.resume:link, 
+.resume:visited,
+input[type=submit] {
+	background-color: #30AEE3;
+	border: 1px solid #fff;
+	text-decoration: underline;
+}
+
+.resume:hover, 
+.resume:active,
+input[type=submit]:hover {
+	background-color: #fff;
+	border: 1px solid #fff;
+	text-decoration: underline;
+}
 
 
 /*-----------------------------------------------------------*/
